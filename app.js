@@ -13,7 +13,7 @@
         "quadrilateral" :["square", "rombus", "trapezoid", "rectangle"],
         "circle" :["circle of radius #number#"],
         "ellipse" :["ellipse with major axis #number# and minor axis #number#"],
-        "number" :["#digit#", "#digit##number#"],
+        "number" :["#digit#","#digit#0", "#digit##number#", "#digit##number#"],
         "digit" :[ "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
 
