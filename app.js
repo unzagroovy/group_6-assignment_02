@@ -1,20 +1,19 @@
 
 
-  // NOTE: hello
-
   let sentences = []
   function generate() {
   var grammar_rules = {
 
-        "shapes" :["#polygon#", "#circle#", "#ellipse#"],
-        "polygon" :["#n#gon", "#triangle#", "#quadrilateral#"],
-        "n"  :["penta", "hexa", "septa", "octa", "nona", "deca"],
-        "triangle" :["scalane triangle", "isosceles triangle", "equilateral triangle"],
+        "shapes"        :["#polygon#", "#circle#", "#ellipse#"],
+        "polygon"       :["#n#gon", "#triangle#", "#quadrilateral#"],
+        "n"             :["penta", "hexa", "septa", "octa", "nona", "deca"],
+        "triangle"      :["scalane triangle", "isosceles triangle", "equilateral triangle"],
         "quadrilateral" :["square", "rombus", "trapezoid", "rectangle"],
-        "circle" :["circle of radius #number#"],
-        "ellipse" :["ellipse with major axis #number# and minor axis #number#"],
-        "number" :["#digit#","#digit#0", "#digit##number#", "#digit##number#"],
-        "digit" :[ "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+        "circle"        :["circle of radius #number#"],
+        "ellipse"       :["ellipse with axisOne #number# and axisTwo #number#"],
+        "number"        :["#digit#","#digit##zero#", "#digit##number#", "#digit##number##zero#"],
+        "digit"         :[ "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+        "zero"          :["0"]
 
 
         }
