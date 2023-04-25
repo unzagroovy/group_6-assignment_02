@@ -23,6 +23,8 @@
       sentences.push(expansion);
 
       let textBox = document.getElementById("sentences");
-      textBox.innerHTML = "<p>"+sentences[Math.floor(Math.random() * sentences.length)]+"</p>"
+      for (i = 0; i < sentences.length; i++) {
+      textBox.innerHTML = "<p>"+sentences[i]+"</p>"
+    }
 
   }
